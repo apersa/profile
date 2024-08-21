@@ -1,0 +1,21 @@
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.card:hover {
+  background-color: var(--bs-gray-dark);
+  border-color: var(--primary-color);
+  animation: slide-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  cursor: pointer;
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-2px);
+  }
+}

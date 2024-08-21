@@ -1,0 +1,10 @@
+<div class="py-5" id="skills">
+  <div class="container px-5 py-5">
+    <h1 class="display-5 fw-bold text-body-emphasis mb-4">... /Skills ...</h1>
+    <mat-chip-set>
+      @for (skill of skills; track skill) {
+        <mat-chip>{{ skill }}</mat-chip>
+      }
+    </mat-chip-set>
+  </div>
+</div>
