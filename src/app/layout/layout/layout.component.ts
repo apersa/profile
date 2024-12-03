@@ -9,20 +9,19 @@ import {ServicesComponent} from "../../components/services/services.component";
 import {ProjectsComponent} from "../../components/projects/projects.component";
 
 @Component({
-  selector: 'app-layout',
-  standalone: true,
-  imports: [
-    HeaderComponent,
-    HomeComponent,
-    AboutComponent,
-    FooterComponent,
-    ContactComponent,
-    SkillsComponent,
-    ServicesComponent,
-    ProjectsComponent
-  ],
-  templateUrl: './layout.component.html',
-  styleUrl: './layout.component.scss'
+    selector: 'app-layout',
+    imports: [
+        HeaderComponent,
+        HomeComponent,
+        AboutComponent,
+        FooterComponent,
+        ContactComponent,
+        SkillsComponent,
+        ServicesComponent,
+        ProjectsComponent
+    ],
+    templateUrl: './layout.component.html',
+    styleUrl: './layout.component.scss'
 })
 export class LayoutComponent {
 

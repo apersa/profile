@@ -3,11 +3,10 @@ import {MatButtonModule} from "@angular/material/button";
 import {NgOptimizedImage} from "@angular/common";
 
 @Component({
-  selector: 'app-about',
-  standalone: true,
-  imports: [MatButtonModule, NgOptimizedImage],
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.scss'
+    selector: 'app-about',
+    imports: [MatButtonModule, NgOptimizedImage],
+    templateUrl: './about.component.html',
+    styleUrl: './about.component.scss'
 })
 export class AboutComponent {
   age: number = this.calculateYears(new Date(1998, 5, 28));

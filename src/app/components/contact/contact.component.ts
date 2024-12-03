@@ -1,16 +1,13 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {MatIcon} from "@angular/material/icon";
-import {MatButton} from "@angular/material/button";
 
 @Component({
-  selector: 'app-contact',
-  standalone: true,
+    selector: 'app-contact',
   imports: [
-    MatIcon,
-    MatButton
+    MatIcon
   ],
-  templateUrl: './contact.component.html',
-  styleUrl: './contact.component.scss'
+    templateUrl: './contact.component.html',
+    styleUrl: './contact.component.scss'
 })
 export class ContactComponent {
 
